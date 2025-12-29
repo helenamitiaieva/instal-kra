@@ -1,0 +1,249 @@
+.about {
+  background-color: #f7f9fc;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+.about-container-full {
+  display: flex;
+  width: 100%;
+  flex-direction: column-reverse;
+  position: relative;
+}
+
+.about-container-full::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: 338px 365px;
+  opacity: 1;
+  top: 100px;
+  left: 30px;
+  background-image: url("/image/address/about-390.svg");
+}
+
+@media screen and (min-width: 768px) {
+  .about-container-full {
+    flex-direction: row;
+    padding-left: 0;
+  }
+  .about-container-full::before {
+    background-image: url("/image/address/about-768.svg");
+    background-size: 392px 369px;
+    top: 20px;
+    left: 340px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-container-full::before {
+    background-image: url("/image/address/about-1024.svg");
+    background-size: 545px 505px;
+    left: 410px;
+    top: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-container-full::before {
+    background-image: url("/image/address/about-1440.svg");
+    background-size: 807px 546px;
+    top: 28px;
+    left: 580px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .about-container-full::before {
+    background-image: url("/image/address/1920/about.svg");
+    background-size: 838px 546px;
+    top: 50px;
+    left: 900px;
+  }
+}
+
+.about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-list {
+    gap: 0;
+  }
+}
+
+.about-container-img {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-container-img {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-container {
+    padding-top: 40px;
+    margin-left: 16px;
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-container {
+    padding-top: 50px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-container {
+    padding-top: 60px;
+    margin-left: 30px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .about-container {
+    padding-top: 100px;
+    margin-left: 67px;
+    padding-right: 72px;
+  }
+}
+
+.about-img {
+  border-radius: 40px 40px 40px 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-img {
+    border-radius: 0px 40px 0px 0px;
+  }
+}
+
+.about-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.05ex;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  order: 1;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-title {
+    text-align: left;
+    font-size: 24px;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    order: 2;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-title {
+    font-size: 50px;
+    line-height: 1.32;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .about-title {
+    margin-bottom: 20px;
+  }
+}
+
+.about-text {
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-text {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .about-text {
+    font-size: 13px;
+    line-height: 1.53;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-text {
+    line-height: 1.15;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-text {
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .about-text {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .about-text-mobile {
+    min-height: 209px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-text-mobile {
+    min-height: 209px;
+  }
+}
+
+.about-text-bold {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-text-bold {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about-text-bold {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about-text-bold {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,98 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #3b3b3b;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.37;
+  font-style: normal;
+  background: #3b3b3b;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 13px;
+    line-height: 1.54;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 20px;
+    line-height: 1.15;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    font-size: 22px;
+    line-height: 1.25;
+  }
+}
+
+a {
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+body.body-lock {
+  overflow: hidden;
+  padding-right: var(--scrollbar-compensation, 0);
+}
+
+.item-lang-ua {
+  display: flex;
+  flex-direction: column;
+}
+.item-lang-pl {
+  display: none;
+  flex-direction: column;
+}
+
+/* Скрыто */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 600ms ease, transform 600ms ease;
+  will-change: opacity, transform;
+}
+
+/* Появилось */
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Если пользователь отключил анимации */
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

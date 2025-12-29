@@ -1,0 +1,306 @@
+.lamb {
+  background-color: #000;
+}
+
+.lamb-container {
+  position: relative;
+  z-index: 1;
+}
+
+.lamb-container::before {
+  position: absolute;
+  content: "";
+  top: 275px;
+  right: 0;
+  width: 348px;
+  height: 177px;
+  background-image: url("/image/lamb/lamborghini-car-390-2x.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+}
+
+.lamb-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: 322px 263px;
+  opacity: 1;
+  top: 245px;
+  left: 40px;
+  z-index: -1;
+  background-image: url("/image/address/lamb-380.svg");
+}
+
+@media screen and (min-width: 768px) {
+  .lamb-container::before {
+    width: 697px;
+    height: 350px;
+    top: 20px;
+    background-image: url("/image/lamb/lamborghini-car-768-2x.png");
+  }
+  .lamb-container::after {
+    background-image: url("/image/address/lamb-768.svg");
+    background-size: 679px 214px;
+    top: 145px;
+    left: 55px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lamb-container::before {
+    background-image: url("/image/lamb/lamborghini-car-1024-2x.png");
+    width: 850px;
+    height: 437px;
+    top: 95px;
+    right: 0px;
+  }
+  .lamb-container::after {
+    background-image: url("/image/address/lamb-1024.svg");
+    background-size: 890px 260px;
+    top: 245px;
+    left: 96px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lamb-container::before {
+    background-image: url("/image/lamb/lamborghini-car-1440-2x.png");
+    width: 1052px;
+    height: 514px;
+    top: 120px;
+  }
+  .lamb-container::after {
+    background-image: url("/image/address/lamb-1440.svg");
+    background-size: 1330px 236px;
+    top: 325px;
+    left: 40px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .lamb-container::before {
+    background-image: url("/image/lamb/lamborghini-car-1920-2x.png");
+    width: 1668px;
+    height: 847px;
+    top: -100px;
+    right: 30px;
+  }
+  .lamb-container::after {
+    background-image: url("/image/address/1920/lamb.svg");
+    background-size: 1413px 508px;
+    top: 100px;
+    left: 250px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lamb-container {
+    padding-left: 95px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lamb-container-main {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    width: 100%;
+  }
+}
+
+.lamd-container-logo {
+  padding-left: 70px;
+  padding-top: 0px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .lamd-container-logo {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lamd-container-logo {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .lamd-container-logo {
+    padding-left: 100px;
+  }
+}
+
+.lamb-logo {
+  width: 188px;
+}
+
+@media screen and (min-width: 768px) {
+  .lamb-logo {
+    width: 153px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lamb-logo {
+    width: 197px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .lamb-logo {
+    width: 366px;
+    padding-left: 50px;
+  }
+}
+
+.lamb-container-text {
+  padding-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .lamb-container-text {
+    position: absolute;
+    left: 200px;
+    top: -70px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lamb-container-text {
+    padding-right: 60px;
+    left: 300px;
+    top: -50px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lamb-container-text {
+    padding-right: 100px;
+    left: 420px;
+    top: -40px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .lamb-container-text {
+    padding-right: 500px;
+    left: 600px;
+    top: -50px;
+  }
+}
+
+.lamb-title {
+  color: #f7f9fc;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding-left: 30px;
+  padding-right: 44px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .lamb-title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lamb-title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lamb-title {
+    font-size: 50px;
+  }
+}
+
+.lamb-text {
+  color: #f7f9fc;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .lamb-text {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lamb-text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lamb-text {
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
+}
+
+.lamb-container-img {
+  width: 100%;
+  display: block;
+  padding-left: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .lamb-container-img {
+    padding-left: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lamb-container-img {
+    padding-left: 150px;
+  }
+}
+
+.lamb-button {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.lamb-img {
+  width: 215px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .lamb-img {
+    margin-top: 5px;
+    width: 290px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lamb-img {
+    width: 412px;
+    margin-top: 50px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lamb-img {
+    width: 453px;
+  }
+}

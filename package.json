@@ -1,0 +1,22 @@
+{
+  "name": "instal-kra-v.2.0",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "posthtml": "^0.16.7",
+    "posthtml-include": "^2.0.1",
+    "vite": "^7.1.10",
+    "vite-plugin-include-html": "^1.0.0",
+    "vite-plugin-posthtml": "^0.0.3"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/splide-extension-grid": "^0.4.1"
+  }
+}

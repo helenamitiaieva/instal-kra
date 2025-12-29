@@ -1,0 +1,321 @@
+.hero {
+  background-image: url(/image/hero/hero-390-1x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(/image/hero/hero-390-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: url(/image/hero/hero-768-1x.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(/image/hero/hero-768-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero {
+    background-image: url(/image/hero/hero-1024-1x.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(/image/hero/hero-1024-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    background-image: url(/image/hero/hero-1440-1x.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(/image/hero/hero-1440-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero {
+    background-image: url(/image/hero/hero.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(/image/hero/hero-2x.jpg);
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    padding-left: 50px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-container {
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero-container {
+    padding-right: 10px;
+  }
+}
+
+.hero-title {
+  color: #1eaf8a;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.hero-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-size: 250px 535px;
+  opacity: 1;
+  pointer-events: none;
+  top: -20px;
+  left: 160px;
+  z-index: 100;
+  background-image: url("/image/address/hero-380.svg");
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container::before {
+    background-image: url("/image/address/hero-768.svg");
+    background-size: 410px 430px;
+    top: 30px;
+    left: 345px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-container::before {
+    background-image: url("/image/address/hero-1024.svg");
+    background-size: 559px 533px;
+    top: 60px;
+    left: 455px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-container::before {
+    background-image: url("/image/address/hero-1440.svg");
+    background-size: 924px 630px;
+    top: 60px;
+    left: 515px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero-container::before {
+    background-image: url("/image/address/1920/hero.svg");
+    background-size: 1221px 745px;
+    top: -10px;
+    left: 500px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 39px;
+    line-height: 1.15;
+    margin-top: 85px;
+    margin-bottom: 37px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-title {
+    font-size: 50px;
+    line-height: 1.16;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-title {
+    font-size: 73px;
+    line-height: 1.15;
+    margin-top: 76px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero-title {
+    font-size: 80px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding-right: 100px;
+  }
+}
+
+.hero-list {
+  margin-bottom: 41px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-list {
+    margin-bottom: 62px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-list {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-list {
+    margin-bottom: 83px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero-list {
+    margin-bottom: 99px;
+  }
+}
+
+.hero-text {
+  color: #f7f9fc;
+  line-height: 1.25;
+  margin-bottom: 5px;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-text {
+    padding-right: 70px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 1.33;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-text {
+    font-size: 20px;
+    line-height: 1.15;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-text {
+    font-size: 22px;
+    line-height: 1.25;
+    margin-bottom: 34px;
+    padding-right: 270px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero-text {
+    margin-bottom: 30px;
+    padding-right: 770px;
+  }
+}
+
+.hero-button {
+  color: #f7f9fc;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.28;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background-color: #c12930;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+  transition: background-color 1s ease, color 1s ease;
+  cursor: pointer;
+  width: 139px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-button {
+    padding: 20px;
+    font-size: 13px;
+    line-height: 1.15;
+    border-radius: 10px;
+    width: 216px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-button {
+    font-size: 16px;
+    line-height: 1.87;
+    width: 256px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-button {
+    font-size: 20px;
+    line-height: 1.5;
+    width: 310px;
+  }
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #f7f9fc;
+  color: #c12930;
+}
+
+.hero-button-link {
+  color: whitesmoke;
+  transition: color 1s ease;
+}
+
+.hero-button-link:hover,
+.hero-button-link:focus {
+  color: #c12930;
+}

@@ -1,0 +1,192 @@
+.burger-menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 140px;
+  top: 100%;
+  left: 60%;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(15px);
+  padding: 20px;
+  display: none;
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+}
+
+.burger-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.burger-menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.burger-menu-link,
+.burger-address-link {
+  color: #f7f9fc;
+  font-family: "Work Sans";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  text-align: end;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.burger-menu-link::after,
+.burger-address-link::after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #1eaf8a;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.burger-menu-link:hover::after,
+.burger-address-link:hover::after {
+  transform: scaleX(1);
+  background-color: #1eaf8a;
+}
+
+.burger-menu-item .burger-menu-link-company:hover::after {
+  background-color: #c12930;
+}
+
+.burger-menu-link {
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .burger-menu-link {
+    line-height: 1;
+  }
+}
+
+.lang-list {
+  margin-top: 5px;
+}
+
+.burger-address-link {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 2px;
+}
+
+.header-addess-link-burger {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header-addess-link-burger {
+    display: none;
+  }
+}
+
+.menu-price-container-price {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.burger-address-icon {
+  fill: #1eaf8a;
+  transition: fill 0.3s ease;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.burger-addess-icon:hover,
+.burger-addess-icon:focus {
+  fill: #c12930;
+}
+
+.burger-menu-link-button {
+  display: flex;
+  justify-content: center;
+  width: 51px;
+  color: #f7f9fc;
+  font-family: "Work Sans";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  transition: backgrond-color 0.3s ease, color 0.3s ease;
+  background-color: #1eaf8a;
+  color: #f7f9fc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 50px;
+  border: none;
+}
+
+.burger-menu-link-button:hover,
+.burger-menu-link-button:focus {
+  background-color: transparent;
+  color: #1eaf8a;
+}
+
+.button-change-language-mobile {
+  position: absolute;
+  right: -30px;
+  bottom: 20px;
+  border: none;
+  background-color: transparent;
+  width: 55px;
+  height: 20px;
+  color: #f7f9fc;
+  font-size: 15px;
+  cursor: pointer;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .button-change-language-mobile {
+    display: none;
+  }
+}
+
+.button-change-language {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .button-change-language {
+    display: flex;
+    border: none;
+    background-color: transparent;
+    color: #f7f9fc;
+    width: 70px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+  }
+}
