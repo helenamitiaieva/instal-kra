@@ -14,7 +14,7 @@ body {
 
 @media screen and (min-width: 768px) {
   body {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 1.54;
   }
 }
@@ -74,7 +74,6 @@ body.body-lock {
   flex-direction: column;
 }
 
-/* Скрыто */
 .reveal {
   opacity: 0;
   transform: translateY(20px);
@@ -82,13 +81,11 @@ body.body-lock {
   will-change: opacity, transform;
 }
 
-/* Появилось */
 .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Если пользователь отключил анимации */
 @media (prefers-reduced-motion: reduce) {
   .reveal {
     opacity: 1;

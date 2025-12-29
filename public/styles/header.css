@@ -11,13 +11,21 @@
   box-shadow: 0px 6px 30px -9px rgba(0, 0, 0, 0.1);
   justify-content: center;
   align-items: center;
+  transition: transform 0.7s ease, box-shadow 0.3s ease;
+}
+.header-container--hidden {
+  transform: translateY(-100%);
+}
+
+.header-container--visible {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 @media screen and (min-width: 768px) {
   .header-container {
     gap: 10px;
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
 }
 
@@ -34,6 +42,11 @@
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header-container {
+    padding-bottom: 10px;
   }
 }
 

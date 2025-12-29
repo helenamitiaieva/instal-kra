@@ -116,6 +116,7 @@
 @media screen and (min-width: 1024px) {
   .plumbing-button-left {
     top: 44%;
+    left: -10px;
   }
 }
 
@@ -640,7 +641,7 @@
   height: 1px;
   background-color: #f7f9fc;
   border-radius: 5px;
-  transition: background-color 1s ease;
+  transition: background-color 0.3s ease;
 }
 
 @media screen and (min-width: 768px) {
@@ -662,7 +663,7 @@
 
 @media screen and (min-width: 768px) {
   .plumbing-container-text {
-    padding-top: 185px;
+    padding-top: 145px;
     padding-right: 0;
     padding-left: 0;
   }
@@ -817,7 +818,7 @@
 }
 @media (min-width: 1024px) {
   .plumbing-button-right {
-    right: 2px;
+    right: 0;
     top: 44%;
   }
 }
@@ -843,7 +844,7 @@
   align-items: center;
   justify-content: center;
   border: none;
-  transition: opacity 1s ease, background-color 1s ease;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
   fill: #fff;
   z-index: 10;
   position: absolute;
@@ -968,7 +969,7 @@
   border-radius: 2px;
   background: #bbbfc5;
   opacity: 1;
-  transition: background-color 1s ease, transform 1s ease, width 1s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease, width 0.3s ease;
 }
 
 @media (min-width: 1440px) {

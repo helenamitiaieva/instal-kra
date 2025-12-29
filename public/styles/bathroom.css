@@ -184,7 +184,7 @@
 
 @media screen and (min-width: 768px) {
   .bathroom-text {
-    width: 190px;
+    width: 210px;
     line-height: 1.53;
   }
 }
@@ -632,7 +632,7 @@
 @media (min-width: 768px) {
   .bathroom-button-left {
     top: 43%;
-    left: 4px;
+    left: -6px;
   }
 }
 @media (min-width: 1024px) {
@@ -660,7 +660,7 @@
 @media (min-width: 768px) {
   .bathroom-button-right {
     top: 43%;
-    right: 12px;
+    right: 2px;
   }
 }
 @media (min-width: 1024px) {
@@ -691,7 +691,7 @@
   align-items: center;
   justify-content: center;
   border: none;
-  transition: opacity 1s ease, background-color 1s ease;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
   fill: #fff;
   z-index: 10;
   position: absolute;
@@ -741,7 +741,7 @@
   border-radius: 2px;
   background: #bbbfc5;
   opacity: 1;
-  transition: background-color 1s ease, transform 1s ease, width 1s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease, width 0.3s ease;
 }
 
 @media (min-width: 768px) {
@@ -759,7 +759,10 @@
   background: #c12930;
   transform: none;
 }
-#bathroom-splide .splide__pagination__page:hover,
+#bathroom-splide .splide__pagination__page:hover {
+  background: #f7f9fc;
+}
+
 #bathroom-splide .splide__pagination__page:focus-visible {
   background: #bbbfc5;
 }
@@ -905,6 +908,12 @@
 
 .splide__pagination.splide__pagination--ltr {
   margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  #bathroom-splide .splide__pagination.splide__pagination--ltr {
+    margin-right: 10px;
+  }
 }
 
 @media (min-width: 1920px) {

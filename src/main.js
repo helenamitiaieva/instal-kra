@@ -1,6 +1,7 @@
 import "@/js/load-html.js";
 import "@/js/modal.js";
 import "@/js/scroll.js";
+import "@/js/header-scroll.js";
 import "@/js/sections/heating.init.js";
 import "@/js/sections/plumbing.init.js";
 import "@/js/sections/bathroom.init.js";
