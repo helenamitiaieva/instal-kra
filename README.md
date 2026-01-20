@@ -84,6 +84,6 @@ This is a static website and can be deployed to:
 ---
 
 ## 👩‍💻 Author
-Developed by **helenamitiaieva**  
-Designed by **LESergeevna**  
+Developed by [helenamitiaieva](https://github.com/helenamitiaieva)
+Designed by [LESergeevna](https://github.com/LESergeevna)
 Commercial project for a Polish company — developed independently (frontend layout + JS logic).
