@@ -5,6 +5,9 @@ This project was developed **independently by me**, including layout implementat
 
 ---
 
+## Project Timeline
+🗓️ October 2024 — January 2025
+
 ## 🌍 Project Overview
 The website presents the company's services and product categories, including pricing cards and interactive sliders.  
 Users can browse content in **multiple languages** and quickly navigate through all page sections.
